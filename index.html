@@ -5,44 +5,44 @@
             function picture()
             {
                 var v=document.getElementById("box").value
-                if(v=="pspk")
+                if(v=="Pspk")
             {
                 document.getElementById("res").style.backgroundImage="url(Images/pspk.jpg)"
                 document.getElementById("res").style.backgroundSize="cover"
                 document.getElementById("res").style.backgroundRepeat="norepeat"
             }
-            else if(v=="obito")
+            else if(v=="Obito")
             {
                 document.getElementById("res").style.backgroundImage="url(Images/Obito.jpg)"
                 document.getElementById("res").style.backgroundSize="cover"
                 document.getElementById("res").style.backgroundRepeat="norepeat"
             }
-            else if(v=="lion")
+            else if(v=="Lion")
             {
                 document.getElementById("res").style.backgroundImage="url(Images/lion.jpg)"
                 document.getElementById("res").style.backgroundSize="cover"
                 document.getElementById("res").style.backgroundRepeat="norepeat"
                 document.getElementById("res").style.backgroundPosition="center"
             }
-            else if(v=="shiva")
+            else if(v=="Shiva")
             {
                 document.getElementById("res").style.backgroundImage="url(Images/shiva.jpg)"
                 document.getElementById("res").style.backgroundSize="cover"
                 document.getElementById("res").style.backgroundRepeat="norepeat"
             }
-            else if(v=="dhoni")
+            else if(v=="Dhoni")
             {
                 document.getElementById("res").style.backgroundImage="url(Images/dhoni.webp)"
                 document.getElementById("res").style.backgroundSize="cover"
                 document.getElementById("res").style.backgroundRepeat="norepeat"
             }
-            else if(v=="spiderman")
+            else if(v=="Spiderman")
             {
                 document.getElementById("res").style.backgroundImage="url(Images/spiderman.jpeg)"
                 document.getElementById("res").style.backgroundSize="cover"
                 document.getElementById("res").style.backgroundRepeat="norepeat"
             }
-            else if(v=="tsunade")
+            else if(v=="Tsunade")
             {
                 document.getElementById("res").style.backgroundImage="url(Images/tsunade.webp)"
                 document.getElementById("res").style.backgroundSize="cover"
@@ -52,43 +52,43 @@
             function dpicture()
             {
                 var v=document.getElementById("box").value
-                if(v=="pspk")
+                if(v=="Pspk")
             {
                 document.getElementById("res").style.backgroundImage="url(Images/pspk2.jpeg)"
                 document.getElementById("res").style.backgroundSize="cover"
                 document.getElementById("res").style.backgroundRepeat="norepeat"
             }
-            else if(v=="obito")
+            else if(v=="Obito")
             {
                 document.getElementById("res").style.backgroundImage="url(Images/obito2.jpeg)"
                 document.getElementById("res").style.backgroundSize="cover"
                 document.getElementById("res").style.backgroundRepeat="norepeat"
             }
-            else if(v=="lion")
+            else if(v=="Lion")
             {
                 document.getElementById("res").style.backgroundImage="url(Images/lion2.jpg)"
                 document.getElementById("res").style.backgroundSize="cover"
                 document.getElementById("res").style.backgroundRepeat="norepeat"
             }
-            else if(v=="shiva")
+            else if(v=="Shiva")
             {
                 document.getElementById("res").style.backgroundImage="url(Images/shiva2.jpeg)"
                 document.getElementById("res").style.backgroundSize="cover"
                 document.getElementById("res").style.backgroundRepeat="norepeat"
             }
-            else if(v=="dhoni")
+            else if(v=="Dhoni")
             {
                 document.getElementById("res").style.backgroundImage="url(Images/dhoni2.jpeg)"
                 document.getElementById("res").style.backgroundSize="cover"
                 document.getElementById("res").style.backgroundRepeat="norepeat"
             }
-            else if(v=="spiderman")
+            else if(v=="Spiderman")
             {
                 document.getElementById("res").style.backgroundImage="url(Images/spiderman2.jpeg)"
                 document.getElementById("res").style.backgroundSize="cover"
                 document.getElementById("res").style.backgroundRepeat="norepeat"
             }
-            else if(v=="tsunade")
+            else if(v=="Tsunade")
             {
                 document.getElementById("res").style.backgroundImage="url(Images/tsunade2.jpg)"
                 document.getElementById("res").style.backgroundSize="cover"
@@ -116,7 +116,8 @@
         <h1>Image Viewer</h1>
         <marquee behavior="scroll" direction="right to left"><b>NOTE: </b>Double click on submit button to view different image.</marquee><br><br>
         <input type="text" id="box" placeholder="Search an Image">
-        <p style="color: gray;">eg:pspk,obito,lion,shiva,dhoni,spiderman,tsunade(they must be small letters.)</p>
+        <p style="color: gray;">eg:pspk,obito,lion,shiva,dhoni,spiderman,tsunade(they must be small letters.)</p><br>
+        <p style="color:red;">NOTE : FIRST LETTER SHOULD BE CAPITAL.</p><br>
         <button onclick="picture()" ondblclick="dpicture()">SUBMIT</button><br><br>
         <center><div id="res"></div></center>
     </body>
